@@ -1,0 +1,43 @@
+label, input {
+    margin: 10px;
+
+}
+
+input {
+    border-radius: 5px;
+}
+h1{
+    color: blue;
+}
+
+.App{
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+  }
+
+  thead {
+    background-color: rgb(120, 204, 204);
+  }
+
+  button{
+    border-radius: 5px;
+    background-color: rgb(85, 172, 199);
+    color:aliceblue;
+    font-size: 18px;
+  }

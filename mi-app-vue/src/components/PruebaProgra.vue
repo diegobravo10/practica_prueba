@@ -104,7 +104,7 @@ export default {
     editar(index) {
       const persona = this.personas[index];
       this.nombre = persona.nombre;
-      this.apellido = persona.direccion;
+      this.apellido = persona.apellido;
       this.edad = persona.edad;
       this.nacionalidad = persona.nacionalidad;
       this.editando = index;
